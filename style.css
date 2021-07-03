@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --primary-color: #60A5FA;
+    --dark-gray: #6B7280;
+    --light-gray: #DBEAFE;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #EFF6FF;
+    margin: 0px;
+}
+
+.container {
+    padding: 0rem 1rem;
+    /* **Important to not add "," after one value of padding i.e 0.5 rem 1rem (correct way of doing) */
+
+}
+.container-padding{
+    padding:2rem;
+}
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* Links */
+.link {
+    padding: 0.5rem 1rem;
+    /* here padding is to add some rea to TRBL of the element */
+    text-decoration: none;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+
+.center-this {
+
+    text-align: center;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #DBEAFE;
+    border: 1px solid var(--primary-color);
+}
+.source-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: EFF6FF;
+    border: 1px solid var(--primary-color);
+}
+
+
+.link-management {
+    text-align: center;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.non-bullet {
+    list-style: none;
+    padding: 0.7rem;
+}
+
+.list-item-inline {
+    display: inline-block;
+    margin: 0rem 0.5rem;
+
+}
+
+/* Navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-family: "Dancing Script", sans-serif;
+    font-size: xx-large;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* Header */
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero .hero-img {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+
+}
+
+.heading-inverted {
+
+    font-family: "Indie Flower", sans-serif;
+    font-size:larger;
+
+}
+
+/* Sections */
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.off-white {
+    background-color: var(--light-gray);
+}
+
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1.5rem;
+    margin: 2rem 0rem 0rem 0rem;
+    
+}
+
+/* To set link colors to white */
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: x-large;
+}
